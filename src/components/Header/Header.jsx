@@ -92,17 +92,12 @@ const MainHeader = styled.div`
 
 const DesktopNav = styled.nav`
     display: flex;
-    gap: clamp(
-        1rem,
-        9.2vw - 4.5rem,
-        3.5rem
-    );
+    gap: clamp(1rem, 9.2vw - 4.5rem, 3.5rem);
     margin: 0 48px;
-    
+
     @media ${QUERIES.tablet} {
         display: none;
     }
-}
 `;
 
 const LogoWrapper = styled.div`
